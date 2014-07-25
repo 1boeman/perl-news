@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# execute the crawlers
+# On Ubuntu/Debian you can apt-get install libxml-libxml-perl and libxml-feed-perl if necessary
+
+curdir=$( pwd )
+cd "./crawlers"
+
+perl -w feeds_to_html.pl 
+perl -w html_to_page.pl
