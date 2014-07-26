@@ -38,6 +38,11 @@ sub htmlify_feed{
 	my ($body,$link,$title,@teaser,$teaser,$template,$feed_title,$template_block);
 	my $maximum_body_words = 200; 
 	my $iterator = 0; 
+
+    unless (-d $outputdir){
+        die 'Output dir not found: ' . $outputdir;
+    }
+
 	print "\n\n";
 	print "Now feeding on: ".$uri."\n";
 

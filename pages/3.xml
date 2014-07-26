@@ -1,0 +1,28 @@
+<page>
+    <section>
+        <feed>http://www.nu.nl/feeds/rss/muziek.rss</feed>
+        <feed>http://www.3fm.nl/data/cache/xml/feed-muzieknieuws.xml</feed>
+        <feed>http://www.muziek.nl/?format=feed&amp;type=rss</feed>
+        <feed>http://www.mtv.com/overdrive/rss/news.jhtml</feed>
+        <feed>http://focus.knack.be/entertainment/muziek/feed.rss</feed>
+        <feed>http://feeds.feedburner.com/hiphopagenda</feed>
+    </section>
+
+    <section>
+        <feed>http://www.festivalinfo.nl/rss/FestivalinfoFestivalRSS.xml</feed>
+        <feed>http://www.rollingstone.com/siteServices/rss/musicNewsAndFeature</feed>
+        <feed>http://www.festivalinfo.nl/rss/AllinfoNewsRSS.xml</feed>
+        <feed>http://www.npr.org/rss/rss.php?id=1039</feed>
+        <feed>http://feeds.feedburner.com/tweakers/mixed</feed>
+    </section>
+    <section>
+        <feed>http://www.nieuws.nl/rss/muziek</feed>
+        <feed>http://www.demorgen.be/cache/rss_muziek.xml</feed>
+        <feed>http://www.music-news.com/rss/news.asp</feed>
+        <feed>http://nlpop.blog.nl/feed</feed>
+        <feed>http://www.muziekcentrum.be/rss_newscat.php?ID=10</feed>
+        <feed>http://www.studionieuws.nl/feed</feed>
+        <feed>http://www.3fm.nl/data/cache/xml/feed-flexnieuws.xml</feed>
+        <feed>http://www.rasa.nl/nieuws/rss</feed>
+    </section>
+</page>

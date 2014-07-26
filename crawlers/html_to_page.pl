@@ -26,7 +26,10 @@ foreach $file (@files) {
 sub page_xml_to_html{
 	my ($section,$template,@feeds,$feed,@section_html,$item_html,@page_data,$feed_src,$hash); 
 	my ($filepath,$filename, $page_template, $data_dir,$output_dir) = @_;   
-	
+    unless (-d $output_dir) {
+        die 'Output dir not found: ' . $output_dir;
+    }
+    	
 	my $parser = XML::LibXML->new();
 	my $doc = XML::LibXML->load_xml(location => $filepath. '/' .$filename ); 
 	my @sections = $doc->findnodes('/page/section');
